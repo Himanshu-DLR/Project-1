@@ -99,3 +99,24 @@ button{
     text-decoration: underline;
     font-weight: 650;
 }
+
+.container1{
+    padding: 65px 0px 0px 135px; 
+    display: flex;
+    gap: 40px;
+    height: 65%;
+    width: 1380px;
+}
+
+.container1 .box5{
+    height: 90%;
+    width: 20%;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.23);
+
+}
+
+.TopImg
+{
+    width: 20%;
+    height: 50%;
+}
