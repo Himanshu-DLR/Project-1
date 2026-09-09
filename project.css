@@ -104,7 +104,7 @@ button{
     padding: 65px 0px 0px 135px; 
     display: flex;
     gap: 40px;
-    height: 65%;
+    height: 70%;
     width: 1380px;
 }
 
@@ -112,11 +112,26 @@ button{
     height: 90%;
     width: 20%;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.23);
-
+    border-radius: 4%;
 }
 
-.TopImg
-{
-    width: 20%;
-    height: 50%;
+.container1 .box5 img{
+     width: 250px;
+    height: 200px;
+    padding: 12px;
+    border-radius: 10%;
+}
+
+.container1 .box5 button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container1 .box5 h3{
+    margin-left: 10px;
+}
+
+.container1 .box5 p{
+     margin-left: 10px;
 }
