@@ -138,15 +138,76 @@ button{
 
 .space{
     height: 70%;
-    width: 100%;
-    background-color: red;
+    width: 81%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.214);
 }
 
 .space img{
     width: 50%;
-    height: 90%;
+    height: 95%;
     object-fit: cover;
-    padding-left: 48%;
-    padding-top: 25px;
-    border-radius: 4%;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.spacebox h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.space .spacebox button{
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 170px;
+}
+
+.space .spacebox{
+    margin-left: 20px;
+    
+}
+
+.area{
+    width: 99%;
+    height: 90%;
+    background-color: #DCEEF8;
+}
+
+.blank{
+    height: 70%;
+    width: 81%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.214);
+}
+
+.blank img{
+    width: 50%;
+    height: 95%;
+    object-fit: cover;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.blank h6{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.blank .blankspace button{
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 170px;
+}
+
+
+.blank .blankspace{
+    margin-left: 20px;
 }
