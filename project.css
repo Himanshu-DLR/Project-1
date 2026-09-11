@@ -136,7 +136,17 @@ button{
      margin-left: 10px;
 }
 
-div1 button{
-    
-    
+.space{
+    height: 70%;
+    width: 100%;
+    background-color: red;
+}
+
+.space img{
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+    padding-left: 48%;
+    padding-top: 25px;
+    border-radius: 4%;
 }
