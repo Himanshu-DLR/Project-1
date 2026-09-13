@@ -126,7 +126,6 @@ button{
     padding: 10px;
     border-radius: 10px;
     margin-left: 20px;
-    margin-top: 20px;
 }
 .container1 .box5 h3{
     margin-left: 10px;
@@ -175,6 +174,16 @@ button{
     width: 99%;
     height: 90%;
     background-color: #DCEEF8;
+    display: flex;
+    justify-content: center;
+}
+
+.area .area1{
+    height: 80%;
+    width: 20%;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.23);
+    border-radius: 4%;
+    padding-bottom: 2%;
 }
 
 .blank{
@@ -211,3 +220,4 @@ button{
 .blank .blankspace{
     margin-left: 20px;
 }
+
