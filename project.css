@@ -17,6 +17,11 @@ nav{
 nav p{
     font-size: 13px;
     gap: 20px;
+    cursor: pointer;
+}
+
+nav p:hover{
+    border-bottom: 2px solid black;
 }
 
 nav .left:first-child{
@@ -106,8 +111,6 @@ button{
     gap: 30px;
     height: 70%;
     width: 1380px;
-    justify-content: center;
-    align-items: center;
 }
 
 .container1 .box5{
@@ -118,7 +121,7 @@ button{
 }
 
 .container1 .box5 img{
-     width: 250px;
+    width: 250px;
     height: 200px;
     padding: 12px;
     border-radius: 10%;
@@ -128,6 +131,7 @@ button{
     padding: 10px;
     border-radius: 10px;
     margin-left: 20px;
+    margin-top: 20px;
 }
 .container1 .box5 h3{
     margin-left: 10px;
@@ -169,20 +173,19 @@ button{
 
 .space .spacebox{
     margin-left: 20px;
-    
 }
 
 .area{
     width: 99%;
     height: 100%;
     background-color: #DCEEF8;
+    gap: 20px;
     display: flex;
     justify-content: center;
-    gap: 20px;
 }
 
 .area .area1{
-    height: 75%;
+    height: 78%;
     width: 21%;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.23);
     border-radius: 4%;
@@ -190,10 +193,55 @@ button{
     background-color: white;
 }
 
-.area p{
-   
+.area .area1 img{
+    width: 290px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 13px;
 }
 
+.area .area1 button{
+    padding: 10px;
+    background-color: #FFB900;
+    color: black;
+    margin-left: 12px;
+    padding: 8px 15px 8px 15px;
+}
+
+.area .area1 h1{
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.area .area1 p{
+    padding: 12px;
+}
+
+.area .area1 .text button{
+    background-color: #0078D4;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.area .area1 .text1 button{
+    background-color: #0078D4;
+    color: white;
+    margin-top: 80px;
+}
+
+.area .area1 .text2 button{
+    background-color: #0078D4;
+    color: white;
+    margin-top: 100px;
+}
+
+.area .area1 .text3 button{
+    background-color: #0078D4;
+    color: white;
+    margin-top: 80px;
+}
 .blank{
     height: 70%;
     width: 81%;
@@ -227,5 +275,75 @@ button{
 
 .blank .blankspace{
     margin-left: 20px;
+}
+
+.socials{
+    width: 99%;
+    height: 20%;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.socials h3{
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials .icons{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.socials .icons .smallbox{
+    width: 2.3%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20%;
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.295);
+    background-size: cover;
+    padding: 8px;
+}
+
+.socials .icons .smallbox img{
+    border-radius: 20%;
+}
+
+footer{
+    width: 100%;
+    height: 45%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .text-box{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .text-box small{
+    font-weight: 400;
+    font-size: x-small;
+    color: gray;
+    cursor: pointer;
+}
+
+footer .text-box small:hover{
+    border-bottom: 2px solid black;
+}
+
+
+footer .text-box h4{
+    font-weight: 400;
+    color: gray;
 }
 
